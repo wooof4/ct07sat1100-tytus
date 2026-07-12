@@ -1,9 +1,18 @@
 function setup(){
-    createCanvas(600, 400);
-    background(220);
+    createCanvas(1200, 800);
+    background(220); 
 }
 
 function draw(){
-    fill(255, 0, 0);
-    ellipse(300,200,200,200);
-}
+    // fill(0,0,255);
+    // // ellipse(300,200,200,200);
+    // rect(0,0,200,400)
+    // fill(255,255,255)
+    // rect(200,0,200,400)
+    // fill(255,0,0)
+    // rect(400,0,200,400)
+    fill(255,0,200)
+    ellipse(300,100,200,200)
+    fill(155,100,0)
+    
+}    
