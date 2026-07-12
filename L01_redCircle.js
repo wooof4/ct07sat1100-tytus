@@ -1,7 +1,7 @@
 function setup(){
     createCanvas(1200, 800);
     background(220); 
-}
+}z
 
 function draw(){
     // fill(0,0,255);
