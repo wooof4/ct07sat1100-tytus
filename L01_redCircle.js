@@ -14,5 +14,5 @@ function draw(){
     fill(255,0,200)
     ellipse(600,250,200,200)
     fill(155,100,0)
-    
+    quad()
 }    
