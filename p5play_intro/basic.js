@@ -12,7 +12,8 @@ function setup() {
     groceries.shift();
     console.log(groceries);
 
-    groceries(1,1,'kaya)
+    groceries(1,1,'kaya')
+    console.log()
 }
   // write your codes here
 
