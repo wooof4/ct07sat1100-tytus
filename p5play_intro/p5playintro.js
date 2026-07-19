@@ -5,6 +5,7 @@ let base=10;
 let height=5;
 let area;
 let sum;
+let age;
 function setup() {
   // Set up the canvas
   new Canvas(800, 400);
