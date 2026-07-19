@@ -20,7 +20,7 @@ function setup() {
   ball.diameter='blue';
   box=new Sprite();
   box.x=620;
-  box.x=200;
+  box.y=200;
   box.w=50;
   box.h=50;
   box.color='green';
