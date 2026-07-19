@@ -45,7 +45,9 @@ function setup() {
   if (age<= 9){
     console.log("u r lower primary")
   }
-  el
+  else if (age<=12){
+    
+  }
 }
 
 function draw() {
