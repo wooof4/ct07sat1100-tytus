@@ -7,7 +7,7 @@ function setup() {
     console.log(groceries)
 
     groceries.push('butter')
-    
+    console.log
 }
   // write your codes here
 
