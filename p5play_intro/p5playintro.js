@@ -25,7 +25,7 @@ function setup() {
   box.h=100;
   box.color='green';
   triangle=new Sprite();
-  triangle
+  triangle.x=;
 }
 
 function draw() {
