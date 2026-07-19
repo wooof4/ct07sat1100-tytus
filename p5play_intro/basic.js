@@ -3,7 +3,8 @@ function setup() {
     let groceries =['apple','bread','milk']
     console.log('groceries')
 
-    groceries.push
+    groceries.push('orange')
+    console.log*
 }
   // write your codes here
 
