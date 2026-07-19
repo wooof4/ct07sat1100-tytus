@@ -26,7 +26,10 @@ function setup() {
   box.color='green';
   triangle=new Sprite();
   triangle.x=100;
-  triangle.y=
+  triangle.y=100;
+  triangle.w=50;
+  triangle.h=50;
+  
 }
 
 function draw() {
