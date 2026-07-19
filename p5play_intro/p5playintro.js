@@ -29,7 +29,9 @@ function setup() {
   triangle.y=100;
   triangle.w=50;
   triangle.h=50;
-  let base
+  let base=10;
+  let height=5;
+  let area=
 }
 
 function draw() {
