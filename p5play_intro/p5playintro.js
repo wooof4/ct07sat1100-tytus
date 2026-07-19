@@ -52,7 +52,7 @@ function setup() {
   //   console.log("u r secondary school")
   // }
   for (i=19;i=0;i-=2){
-    console.log
+    console.log(i)
   }
 }
 
