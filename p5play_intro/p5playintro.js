@@ -1,6 +1,6 @@
 let ball;
 let box;
-
+let triangle
 function setup() {
   // Set up the canvas
   new Canvas(800, 400);
@@ -24,6 +24,7 @@ function setup() {
   box.w=50;
   box.h=100;
   box.color='green';
+  
 }
 
 function draw() {
