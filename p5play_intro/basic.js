@@ -4,7 +4,9 @@ function setup() {
     console.log('groceries')
 
     groceries.push('orange')
-    console.log*
+    console.log(groceries)
+
+    
 }
   // write your codes here
 
