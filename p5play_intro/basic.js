@@ -1,7 +1,9 @@
 let groceries;
 function setup() {
     let groceries =['apple','bread','milk']
-    console.log()
+    console.log('groceries')
+
+    
 }
   // write your codes here
 
