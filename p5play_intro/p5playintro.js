@@ -22,7 +22,7 @@ function setup() {
   box.x=50;
   box.y=50;
   box.w=50;
-  box.h=100;
+  box.h=100;w
   box.color='green';
 }
 
