@@ -19,8 +19,8 @@ function setup() {
   ball.diameter=40;
   ball.diameter='blue';
   box= new Sprite();
-  box.y=100;
-  box.x=100;
+  box.y=300;
+  box.x=300;
   box.w=50;
   box.h=50;
   box.color='green'
