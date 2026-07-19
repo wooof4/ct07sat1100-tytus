@@ -31,7 +31,8 @@ function setup() {
   triangle.h=50;
   let base=10;
   let height=5;
-  let area=
+  let area;
+  are=0.5* base * height
 }
 
 function draw() {
