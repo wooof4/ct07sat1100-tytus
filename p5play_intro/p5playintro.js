@@ -36,11 +36,11 @@ function setup() {
   
   // area=0.5* base * height
   // console.log("ssThe area of the triangle is "+area)
-  for (let i=2; i=20; i+=2){
-    sum+=i;
-  }
-  console.log("the sum of the first 10 even number is " , sum)
-  text("The sum of the first ten number:" +sum,100,120)
+  // for (let i=2; i=20; i+=2){
+  //   sum+=i;
+  // }
+  // console.log("the sum of the first 10 even number is " , sum)
+  // text("The sum of the first ten number:" +sum,100,120)
 }
 
 function draw() {
