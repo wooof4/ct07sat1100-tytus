@@ -42,15 +42,15 @@ function setup() {
   // }
   // console.log("the sum of the first 10 even number is " , sum)
   // text("The sum of the first ten number:" +sum,100,120)
-  if (age<= 9){
-    console.log("u r lower primary")
-  }
-  else if (age<=12){
-    console.log("u r upper primary")
-  }
-  else {
-    console.log("u r secondary school")
-  }
+  // if (age<= 9){
+  //   console.log("u r lower primary")
+  // }
+  // else if (age<=12){
+  //   console.log("u r upper primary")
+  // }
+  // else {
+  //   console.log("u r secondary school")
+  // }
 }
 
 function draw() {
