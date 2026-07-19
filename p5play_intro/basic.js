@@ -13,7 +13,7 @@ function setup() {
     console.log(groceries);
 
     groceries(1,1,'kaya')
-    console.log()
+    console.log(groceries);
 }
   // write your codes here
 
