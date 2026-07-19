@@ -40,7 +40,7 @@ function setup() {
     sum+=i;
   }
   console.log("the sum of the first 10 even number is " , sum)
-  text("The sum of the first ten number:" +sum_100_120)
+  text("The sum of the first ten number:" +sum,100,120)
 }
 
 function draw() {
