@@ -1,6 +1,6 @@
 let groceries;
 function setup() {
-    let groceries =['apple']
+    let groceries =['apple','bread','']
 }
   // write your codes here
 
