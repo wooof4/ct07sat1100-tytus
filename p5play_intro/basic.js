@@ -10,6 +10,7 @@ function setup() {
     console.log(groceries)
 
     groceries.shift();
+    console.log(groceries);
     
 }
   // write your codes here
