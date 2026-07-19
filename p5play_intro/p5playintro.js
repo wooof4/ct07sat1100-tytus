@@ -29,7 +29,7 @@ function setup() {
   triangle.y=100;
   triangle.w=50;
   triangle.h=50;
-  
+  let base
 }
 
 function draw() {
