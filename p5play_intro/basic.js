@@ -9,7 +9,8 @@ function setup() {
     groceries.push('butter')
     console.log(groceries)
 
-    groceries
+    groceries.shift();
+    
 }
   // write your codes here
 
