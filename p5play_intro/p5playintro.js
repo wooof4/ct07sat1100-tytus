@@ -35,7 +35,9 @@ function setup() {
   
   // area=0.5* base * height
   // console.log("ssThe area of the triangle is "+area)
-  for (let i=1; i=10; i++){}
+  for (let i=1; i=10; i++){
+    console.log()
+  }
 
 }
 
