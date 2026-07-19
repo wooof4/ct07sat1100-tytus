@@ -6,7 +6,7 @@ function setup() {
   new Canvas(800, 400);
   background(250); //background color
 
-  // Basic shape testingssssssssssss
+  // Basic shape testings
   // write your codes here
 
   // End Basic shape testing
