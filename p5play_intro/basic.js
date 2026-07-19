@@ -1,6 +1,6 @@
 function setup() {
     
-}
+}s
   // write your codes here
 
   // --- Exercise: Area of Triangle ---
@@ -17,5 +17,5 @@ function setup() {
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
-}
+
 
