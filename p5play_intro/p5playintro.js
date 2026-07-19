@@ -49,7 +49,7 @@ function setup() {
     console.log("u r upper primary")
   }
   else {
-    
+    console.log("u r ")
   }
 }
 
