@@ -6,6 +6,7 @@ function setup() {
     groceries.push('orange')
     console.log(groceries)
 
+    groceries.push('butter')
     
 }
   // write your codes here
