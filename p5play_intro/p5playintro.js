@@ -2,8 +2,8 @@ let ball;
 let box;
 let triangle
 let base=10;
-  let height=5;
-  let area;
+let height=5;
+let area;
 function setup() {
   // Set up the canvas
   new Canvas(800, 400);
@@ -34,7 +34,7 @@ function setup() {
   triangle.h=50;
   
   area=0.5* base * height
-  console.log('The area of the triangle is '+area)
+  console.log("The area of the triangle is "+area)
 }
 
 function draw() {
