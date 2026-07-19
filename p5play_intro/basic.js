@@ -1,6 +1,6 @@
-
+let groceries;
 function setup() {
-    gr
+    let gr
 }
   // write your codes here
 
