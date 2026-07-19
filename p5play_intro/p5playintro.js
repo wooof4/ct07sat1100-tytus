@@ -15,7 +15,7 @@ function setup() {
    // write your codes here
   ball=new Sprite();
   ball.x =10;
-  ball.y=50;
+  ball.y=15;
   ball.diameter=40;
   ball.color='blue';
   box=new Sprite();
