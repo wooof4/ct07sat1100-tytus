@@ -46,7 +46,7 @@ function setup() {
     console.log("u r lower primary")
   }
   else if (age<=12){
-    
+    console.log("")
   }
 }
 
