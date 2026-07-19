@@ -39,7 +39,7 @@ function setup() {
   for (let i=2; i=20; i+=2){
     sum+=i;
   }
-  console.log("the sum of the first 10 even number is " + sum)
+  console.log("the sum of the first 10 even number is " , sum)
   text("The sum of the first ten number:" +sum_100_120)
 }
 
