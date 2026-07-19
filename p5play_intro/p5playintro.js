@@ -33,8 +33,8 @@ function setup() {
   triangle.w=50;
   triangle.h=50;
   
-  area=0.5* base * height
-  console.log("The area of the triangle is "+area)
+  // area=0.5* base * height
+  // console.log("ssThe area of the triangle is "+area)
 }
 
 function draw() {
