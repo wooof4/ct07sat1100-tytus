@@ -1,6 +1,6 @@
 // the final game
 function setup(){
-    createCanvas(300400);
+    createCanvas(400.600);
     background('white')
 }
 function draw(){
