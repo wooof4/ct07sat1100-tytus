@@ -1,6 +1,10 @@
 // the final game
 let bird,floor;
-let flapMidImg,
+let flapMidImg,bg,base
+
+function preload(){
+    
+}
 function setup(){
     createCanvas(400,600);
     background('white')
