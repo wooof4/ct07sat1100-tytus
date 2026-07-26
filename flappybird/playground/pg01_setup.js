@@ -3,6 +3,6 @@ let flapMidImg,bg,base
 
 function preload(){
     flapMidImg=loadimage('assets/redbird-midflap.png')
-    bg=loadimage('assets/backround-night.png')
+    bg=loadimage('assets/background-night.png')
     base=loadimage('assets/base.png')
 }
