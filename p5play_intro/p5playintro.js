@@ -58,7 +58,7 @@ function setup() {
 
 function draw() {
   // write your codes here
-    //  fill(255,0,200);
+    //  fill(255,0,200);  s
     // ellipse(600,250,300,300);
     // fill(155,100,0);
     // rect(525,500,150,300);
