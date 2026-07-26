@@ -1,6 +1,6 @@
 // the final game
 let bird,floor;
-le
+let flapMidImg,
 function setup(){
     createCanvas(400,600);
     background('white')
