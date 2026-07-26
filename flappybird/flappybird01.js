@@ -4,7 +4,8 @@ let flapMidImg,bg,base
 
 function preload(){
     flapMidImg=loadimage('assets/redbird-midflap.png')
-    bg=loadimage('assets/backround-')
+    bg=loadimage('assets/backround-night.png')
+    base=loadimage
 }
 function setup(){
     createCanvas(400,600);
