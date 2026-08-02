@@ -48,7 +48,7 @@ function setup(){
     ceiling.y=-20
     ceiling.width=400
     ceiling.height=20
-    ceiling.
+    ceiling.collider='static'
 }
 
 
