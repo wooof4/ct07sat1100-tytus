@@ -38,9 +38,9 @@ function setup(){
     wall1.height=600;
     wall1.collider='static';
     wall2=new Sprite()
-    wall2.x=-20;
+    wall2.x=20;
     wall2.y=300;
-    wall2.width=-20;
+    wall2.width=0;
     wall.height=600;
     wall2.collider='static';
 }
