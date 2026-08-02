@@ -61,8 +61,8 @@ function draw(){
 
     if(kb.presse('a')){
         bird.vel.x=15
-        
-    }
+        bird.sleeping=false
+}
     
     fill('blue');
     textSize(14);
