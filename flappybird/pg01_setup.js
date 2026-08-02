@@ -43,7 +43,8 @@ function setup(){
     wall2.width=20;
     wall2.height=600;
     wall2.collider='static';
-    ceiling
+    ceiling=new Sprite()
+    ceiling.x=200
 }
 
 
