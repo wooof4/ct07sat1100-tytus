@@ -31,12 +31,12 @@ function setup(){
     floor.height=125;
     floor.collider='static'
     floor.img=base;
-    // wall= new Sprite
-    // wall.x=420;
-    // wall.y=300;
-    // wall.width=20
-    // wall.height=600
-    // wall.collider='static'
+    wall1= new Sprite
+    wall1.x=420;
+    wall1.y=300;
+    wall.width=20
+    wall.height=600
+    wall.collider='static'
 }
 
 
