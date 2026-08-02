@@ -61,5 +61,5 @@ function draw(){
     
     FileList('blue');
     textSize(14);
-    text('vel')
+    text('vel.y'+bird.vel.y.tofixed(2))
 }
