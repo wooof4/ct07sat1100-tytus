@@ -38,6 +38,8 @@ function setup(){
     wall1.height=600
     wall1.collider='static'
     wall2=new Sprite
+    wall.x=-20;
+    wall2.y=300;
 }
 
 
