@@ -22,7 +22,7 @@ function setup(){
     // bird.drag=-100;
     bird.mass=2;
     bird.bounciness=10;
-    world.gravity.y=1000;
+    world.gravity.y=0;
     // world.gravity.x=20;
     floor = new Sprite()
     floor.x=200;
@@ -31,12 +31,12 @@ function setup(){
     floor.height=125;
     floor.collider='static'
     floor.img=base;
-    wall1= new Sprite()
-    wall1.x=420;
-    wall1.y=300;
-    wall1.width=20;
-    wall1.height=600;
-    wall1.collider='static';
+    // wall1= new Sprite()
+    // wall1.x=420;
+    // wall1.y=300;
+    // wall1.width=20;
+    // wall1.height=600;
+    // wall1.collider='static';
     // wall2=new Sprite()
     // wall2.x=0;
     // wall2.y=300;
