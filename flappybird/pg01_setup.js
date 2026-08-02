@@ -17,7 +17,7 @@ function setup(){
     bird.y=200;
     bird.width=100;
     bird.height=100;
-    bird.img=flapMidImg;
+    // bird.img=flapMidImg;
 }
 
 function draw(){
