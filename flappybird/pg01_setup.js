@@ -23,7 +23,7 @@ function setup(){
     bird.mass=2;
     bird.bounciness=0.5;
     // world.gravity.y=10;
-    world.gravity.x=10;
+    world.gravity.x=20;
 }
 
 function draw(){
