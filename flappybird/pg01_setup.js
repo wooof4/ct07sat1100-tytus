@@ -32,7 +32,7 @@ function setup(){
     floor.collider='static'
     floor.img=base;
     wall= new Sprite
-    wall.x=400;
+    wall.x=410;
     wall.y=300;
     wall.width=20
     wall.height=600
