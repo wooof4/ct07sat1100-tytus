@@ -6,3 +6,7 @@ function preload(){
     bg=loadimage('assets/background-night.png')
     base=loadimage('assets/base.png')
 }
+
+function setup(){
+    
+}
