@@ -32,7 +32,7 @@ function setup(){
     floor.collider='static'
     floor.img=base;
 
-    wall
+    
 }
 
 
