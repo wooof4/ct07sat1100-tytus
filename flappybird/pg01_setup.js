@@ -23,7 +23,7 @@ function setup(){
     bird.mass=2;
     bird.bounciness=0.5;
     world.gravity.y=10;
-    world.gravity.x=20;
+    // world.gravity.x=20;
     floor = new Sprite()
     floor.x=200;
     floor.y=height -20;
