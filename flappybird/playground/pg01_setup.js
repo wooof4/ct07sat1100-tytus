@@ -12,7 +12,7 @@ function setup(){
     background('white')
 
     //sprite
-    bird=
+    bird=new Sprite
 }
 
 function draw(){
