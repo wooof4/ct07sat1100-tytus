@@ -21,7 +21,7 @@ function setup(){
     bird.collider = 'dynamic';
     // bird.drag=-100;
     bird.mass=2;
-    bird.bounciness=0.5;
+    bird.bounciness=5;
     world.gravity.y=20;
     // world.gravity.x=20;
     floor = new Sprite()
@@ -31,24 +31,24 @@ function setup(){
     floor.height=125;
     floor.collider='static'
     floor.img=base;
-    wall1= new Sprite()
-    wall1.x=420;
-    wall1.y=300;
-    wall1.width=20;
-    wall1.height=600;
-    wall1.collider='static';
-    wall2=new Sprite()
-    wall2.x=-20;
-    wall2.y=300;
-    wall2.width=20;
-    wall2.height=600;
-    wall2.collider='static';
-    ceiling=new Sprite()
-    ceiling.x=200
-    ceiling.y=-20
-    ceiling.width=400
-    ceiling.height=20
-    ceiling.collider='static'
+    // wall1= new Sprite()
+    // wall1.x=420;
+    // wall1.y=300;
+    // wall1.width=20;
+    // wall1.height=600;
+    // wall1.collider='static';
+    // wall2=new Sprite()
+    // wall2.x=-20;
+    // wall2.y=300;
+    // wall2.width=20;
+    // wall2.height=600;
+    // wall2.collider='static';
+    // ceiling=new Sprite()
+    // ceiling.x=200
+    // ceiling.y=-20
+    // ceiling.width=400
+    // ceiling.height=20
+    // ceiling.collider='static'
 }
 
 
