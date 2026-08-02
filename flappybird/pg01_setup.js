@@ -20,7 +20,7 @@ function setup(){
     bird.img=flapMidImg;
     bird.collider = 'dynamic';
     // bird.drag=-100;
-    bird.mass=0;
+    bird.mass=2;
     bird.bounciness=0.5;
     world.gravity.y=10;
     // world.gravity.x=20;
@@ -31,6 +31,8 @@ function setup(){
     floor.height=125;
     floor.collider='static'
     floor.img=base;
+
+    wall
 }
 
 
