@@ -45,7 +45,10 @@ function setup(){
     wall2.collider='static';
     ceiling=new Sprite()
     ceiling.x=200
-    ceiling.y=
+    ceiling.y=-20
+    ceiling.width=400
+    ceiling.height=20
+    
 }
 
 
