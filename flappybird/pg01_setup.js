@@ -36,7 +36,7 @@ function setup(){
     wall.y=0;
     wall.width=600
     wall.height=20
-    wall.collider
+    wall.collider='static'
 }
 
 
