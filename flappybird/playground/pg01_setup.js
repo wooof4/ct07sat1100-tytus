@@ -9,5 +9,5 @@ function preload(){
 
 function setup(){
     createCanvas(400,600)
-    bac
+    background('white')
 }
