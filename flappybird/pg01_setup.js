@@ -60,6 +60,7 @@ function draw(){
     }
 
     if(kb.presse('a')){
+        bird.vel.x=15
         
     }
     
