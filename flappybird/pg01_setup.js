@@ -59,7 +59,11 @@ function draw(){
         bird.sleeping=false
     }
 
-    if(kb.presses('a')){
+    if(kb.presses('d')){
+        bird.vel.x=15
+        bird.sleeping=false
+}
+    if(kb.presses('d')){
         bird.vel.x=15
         bird.sleeping=false
 }
