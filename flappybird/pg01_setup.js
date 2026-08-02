@@ -40,9 +40,9 @@ function setup(){
     wall2=new Sprite
     wall.x=-20;
     wall2.y=300;
-    wall2.width=-20
-    wall.height=600
-    wall2.collider='st'
+    wall2.width=-20;
+    wall.height=600;
+    wall2.collider='static';
 }
 
 
