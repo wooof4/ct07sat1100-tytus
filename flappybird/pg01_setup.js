@@ -54,24 +54,24 @@ function setup(){
 
 function draw(){
     image(bg,0,0,width,height);
-    if (kb.presses('w')){
+    if (kb.presses('')){
         bird.vel.y=-15
         bird.sleeping=false
     }
 
-    if(kb.presses('d')){
-        bird.vel.x=15
-        bird.sleeping=false
-}
-    if(kb.presses('a')){
-        bird.vel.x=-15
-        bird.sleeping=false
-}
+//     if(kb.presses('d')){
+//         bird.vel.x=15
+//         bird.sleeping=false
+// }
+//     if(kb.presses('a')){
+//         bird.vel.x=-15
+//         bird.sleeping=false
+// }
 
-    if(kb.presses('s')){
-        bird.vel.y=15
-        bird.sleeping=false
-}
+//     if(kb.presses('s')){
+//         bird.vel.y=15
+//         bird.sleeping=false
+// }
     
     fill('blue');
     textSize(14);
