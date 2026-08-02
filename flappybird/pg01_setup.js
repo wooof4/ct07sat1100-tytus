@@ -48,4 +48,7 @@ function setup(){
 
 function draw(){
     image(bg,0,0,width,height);
+    if (KeyboardEvent.presses('space')){
+        
+    }
 }
