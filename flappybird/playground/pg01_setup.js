@@ -11,7 +11,8 @@ function setup(){
     createCanvas(400,600)
     background('white')
 
-    //
+    //sprite
+    bird=
 }
 
 function draw(){
