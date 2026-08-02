@@ -16,7 +16,8 @@ function setup(){
     bird.x=width/2;
     bird.y=200
     bird.width=30;
-    b
+    bird.height=30
+    bird.glap
 }
 
 function draw(){
