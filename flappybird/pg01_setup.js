@@ -41,7 +41,8 @@ function setup(){
     wall.x=-20;
     wall2.y=300;
     wall2.width=-20
-    wall.height=
+    wall.height=600
+    wall2.collider='st'
 }
 
 
