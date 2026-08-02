@@ -17,11 +17,11 @@ function setup(){
     bird.y=200;
     bird.width=100;
     bird.height=100;
-    // bird.img=flapMidImg;
+    bird.img=flapMidImg;
     bird.collider = 'dynamic';
     bird.mass=2
     bird.bounciness=0.5;
-    world.gravity.y=10;
+    world.gravity.y=-10;
 }
 
 function draw(){
