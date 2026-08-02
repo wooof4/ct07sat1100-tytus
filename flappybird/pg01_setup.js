@@ -22,7 +22,7 @@ function setup(){
     // bird.drag=-100;
     bird.mass=2;
     bird.bounciness=10;
-    world.gravity.y=0;
+    world.gravity.y=20;
     // world.gravity.x=20;
     floor = new Sprite()
     floor.x=200;
