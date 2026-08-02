@@ -9,7 +9,7 @@ function preload(){
 
 function setup(){
     createCanvas(400,600);
-    background(0,0,0);
+    background('white');
 
     // //sprite
     // bird=new Sprite();
