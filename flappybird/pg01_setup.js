@@ -41,7 +41,7 @@ function setup(){
     wall.x=-20;
     wall2.y=300;
     wall2.width=-20
-    wall.
+    wall.height=
 }
 
 
