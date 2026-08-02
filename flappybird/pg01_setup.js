@@ -34,7 +34,8 @@ function setup(){
     wall= new Sprite
     wall.x=400;
     wall.y=0;
-    wall
+    wall.width=600
+    wall.height
 }
 
 
