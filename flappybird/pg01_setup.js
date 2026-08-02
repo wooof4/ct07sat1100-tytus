@@ -58,6 +58,8 @@ function draw(){
         bird.vel.y=-15
         bird.sleeping=false
     }
+
+    if(kb.)
     
     fill('blue');
     textSize(14);
