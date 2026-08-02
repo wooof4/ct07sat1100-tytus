@@ -19,6 +19,7 @@ function setup(){
     bird.height=100;
     bird.img=flapMidImg;
     bird.collider = 'dynamic';
+    bird.
     bird.mass=2;
     bird.bounciness=0.5;
     world.gravity.y=-10;
