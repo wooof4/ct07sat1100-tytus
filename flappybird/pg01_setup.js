@@ -34,8 +34,8 @@ function setup(){
     wall= new Sprite
     wall.x=400;
     wall.y=0;
-    wall.width=600
-    wall.height=20
+    wall.width=20
+    wall.height=600
     wall.collider='static'
 }
 
