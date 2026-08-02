@@ -61,6 +61,6 @@ function draw(){
     
     FileList('blue');
     textSize(14);
-    text('vel.y'+bird.vel.y.tofixed(2),10,20);
-    text('isss')
+    text('vel.y:'+bird.vel.y.tofixed(2),10,20);
+    text('isMoving:'+bird.isM)
 }
