@@ -25,6 +25,8 @@ function setup(){
     world.gravity.y=10;
     // world.gravity.x=20;
     floor = new Sprite()
+    floor.x=200;
+    floor.y
 }
 
 
