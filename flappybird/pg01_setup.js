@@ -60,4 +60,5 @@ function draw(){
     }
     
     FileList('blue');
+    textSize
 }
