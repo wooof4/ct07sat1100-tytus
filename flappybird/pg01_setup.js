@@ -40,6 +40,7 @@ function setup(){
     wall2=new Sprite
     wall.x=-20;
     wall2.y=300;
+    wall2.
 }
 
 
