@@ -54,7 +54,7 @@ function setup(){
 
 function draw(){
     image(bg,0,0,width,height);
-    if (kb.presses('space')){
+    if (kb.presses('w')){
         bird.vel.y=-15
         bird.sleeping=false
     }
@@ -63,10 +63,12 @@ function draw(){
         bird.vel.x=15
         bird.sleeping=false
 }
-    if(kb.presses('d')){
-        bird.vel.x=15
+    if(kb.presses('a')){
+        bird.vel.x=-15
         bird.sleeping=false
 }
+
+
     
     fill('blue');
     textSize(14);
