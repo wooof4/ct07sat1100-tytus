@@ -59,7 +59,7 @@ function draw(){
         bird.sleeping=false
     }
     
-    FileList('blue');
+    fill('blue');
     textSize(14);
     text('vel.y:'+bird.vel.y.tofixed(2),10,20);
     text('isMoving:'+bird.isMoving,10,40);
