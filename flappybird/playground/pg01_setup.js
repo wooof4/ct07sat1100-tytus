@@ -13,7 +13,8 @@ function setup(){
 
     //sprite
     bird=new Sprite();
-    
+    bird.x=width/2;
+    bird.
 }
 
 function draw(){
