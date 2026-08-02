@@ -7,10 +7,12 @@ function preload(){
     bg=loadimage('assets/backround-night.png')
     base=loadimage('assets/base.png')
 }
+
 function setup(){
     createCanvas(400,600);
     background('white')
 }
+
 function draw(){
 
 }
