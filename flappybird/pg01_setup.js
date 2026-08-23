@@ -78,7 +78,7 @@ if(frameCount% 90 ===0){
     spawnPipePair();
 }
 for(let pipe of pipeGroup){
-    
+    pipe.remove();
 }
 }
 
