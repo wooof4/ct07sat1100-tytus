@@ -69,6 +69,9 @@ bird.rotation = 0;
 if (frameCount === 1){
 spawnPipePair();
 }
+
+bird+=3;
+camer
 }
 
 function spawnPipePair(){
