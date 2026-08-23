@@ -82,6 +82,10 @@ for(let pipe of pipeGroup){
         pipe.remove();
     }
 }
+
+if (bird.collides(pipeGroup)||bird.collides(floor)){
+    noLoop();
+}
 }
 
 function spawnPipePair(){
@@ -100,8 +104,6 @@ topPipe.rotation = 180;
 
 pipeGroup.add(topPipe);
 
-if (bird.collides(pipeGroup)||bird.collides(floor)){
-    noLoop();
-}
+
 
 }
