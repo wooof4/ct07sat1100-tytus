@@ -100,4 +100,8 @@ topPipe.rotation = 180;
 
 pipeGroup.add(topPipe);
 
+if (bird.collides(pipeGroup)||bird.collides(floor)){
+    no
+}
+
 }
