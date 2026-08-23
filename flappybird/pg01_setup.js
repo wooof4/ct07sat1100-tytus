@@ -70,7 +70,7 @@ if (frameCount === 1){
 spawnPipePair();
 }
 
-bird+=3;
+bird.x+=3;
 camera.x=bird.x;
 floor.x=bird.x;
 }
