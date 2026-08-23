@@ -87,7 +87,5 @@ topPipe.rotation = 180;
 
 pipeGroup.add(topPipe);
 
-bird.x+=3;
-camera.x=bird.x;
-floor.
+
 }
