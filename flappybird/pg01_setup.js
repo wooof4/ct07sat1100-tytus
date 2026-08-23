@@ -99,13 +99,13 @@ if (bird.collides(pipeGroup)||bird.collides(floor)){
 
     noLoop();
 }
-if(kb.presses('space')||mousep.presses()){
+if(kb.presses('space')||mouse.presses()){
     startGame=true
     startScreenLabel.visible=false
 }
 
 if(startGame){
-    
+
 }
 }
 
