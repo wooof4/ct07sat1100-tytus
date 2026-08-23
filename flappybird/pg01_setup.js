@@ -85,6 +85,7 @@ for(let pipe of pipeGroup){
 }
 
 if (bird.collides(pipeGroup)||bird.collides(floor)){
+    gameoverLabel
     noLoop();
 }
 }
