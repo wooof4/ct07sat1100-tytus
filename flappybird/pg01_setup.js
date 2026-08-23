@@ -13,7 +13,7 @@ bg = loadImage('assets/background-night.png');
 base = loadImage('assets/base.png');
 pipe = loadImage('assets/pipe-green.png');
 gameoverImg=loadImage('assets/gameover.png');
-startScreenimg=loadImage('assets/message,png')
+startScreenimg=loadImage('assets/message.png')
 }
 
 function setup(){
