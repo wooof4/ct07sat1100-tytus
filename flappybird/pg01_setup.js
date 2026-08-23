@@ -1,8 +1,8 @@
 let bird, floor;
 let flapMidImg, bg, base;
 let pipeGroup, pipe, bottomPipe, topPipe;
-let gameoverImg
-let 
+let gameoverImg;
+let gameoverLabel;
 function preload() {
 flapMidImg = loadImage('assets/yellowbird-midflap.png');
 flapUpImg = loadImage('assets/yellowbird-upflap.png');
