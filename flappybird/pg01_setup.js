@@ -71,7 +71,8 @@ spawnPipePair();
 }
 
 bird+=3;
-camer
+camera.x=bird.x;
+
 }
 
 function spawnPipePair(){
