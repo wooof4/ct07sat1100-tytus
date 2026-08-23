@@ -85,7 +85,7 @@ for(let pipe of pipeGroup){
 }
 
 if (bird.collides(pipeGroup)||bird.collides(floor)){
-    gameoverLabel
+    gameoverLabel=new Sprite(width/2)
     noLoop();
 }
 }
