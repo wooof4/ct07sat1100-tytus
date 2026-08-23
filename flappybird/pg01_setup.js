@@ -77,6 +77,9 @@ floor.x=bird.x;
 if(frameCount% 90 ===0){
     spawnPipePair();
 }
+for(let pipe of pipeGroup){
+    
+}
 }
 
 function spawnPipePair(){
