@@ -3,6 +3,7 @@ let flapMidImg, bg, base;
 let pipeGroup, pipe, bottomPipe, topPipe;
 let gameoverImg;
 let gameoverLabel;
+let start
 function preload() {
 flapMidImg = loadImage('assets/yellowbird-midflap.png');
 flapUpImg = loadImage('assets/yellowbird-upflap.png');
@@ -89,7 +90,7 @@ if (bird.collides(pipeGroup)||bird.collides(floor)){
     gameoverLabel.img=gameoverImg;
     gameoverLabel.layer=100;
     gameoverLabel.x=camera.x;
-    
+
     noLoop();
 }
 }
