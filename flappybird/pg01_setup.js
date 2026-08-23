@@ -99,6 +99,9 @@ if (bird.collides(pipeGroup)||bird.collides(floor)){
 
     noLoop();
 }
+if(kb.presses('space')||mousep.presses()){
+    
+}
 }
 
 function spawnPipePair(){
