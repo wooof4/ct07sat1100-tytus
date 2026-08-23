@@ -42,7 +42,7 @@ floor.img = base;
 
 pipeGroup = new Group();
 
-startScreenLabel=new Sprite(width)/2
+startScreenLabel=new Sprite(width/2,)
 }
 
 function draw(){
