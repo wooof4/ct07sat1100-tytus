@@ -4,7 +4,7 @@ let pipeGroup, pipe, bottomPipe, topPipe;
 let gameoverImg;
 let gameoverLabel;
 let startScreenLabel;
-let startScreenimg;
+let startScreenImg;
 function preload() {
 flapMidImg = loadImage('assets/yellowbird-midflap.png');
 flapUpImg = loadImage('assets/yellowbird-upflap.png');
@@ -13,7 +13,7 @@ bg = loadImage('assets/background-night.png');
 base = loadImage('assets/base.png');
 pipe = loadImage('assets/pipe-green.png');
 gameoverImg=loadImage('assets/gameover.png');
-startScreenimg=loadImage('assets/message.png')
+startScreenImg=loadImage('assets/message.png')
 }
 
 function setup(){
