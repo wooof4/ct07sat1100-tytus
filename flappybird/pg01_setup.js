@@ -79,9 +79,8 @@ if(frameCount% 90 ===0){
 }
 for(let pipe of pipeGroup){
     if (pipe.x<-50){
-        
+        pipe.remove();
     }
-    pipe.remove();
 }
 }
 
