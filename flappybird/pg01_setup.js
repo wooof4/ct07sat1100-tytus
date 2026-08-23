@@ -104,7 +104,9 @@ if(kb.presses('space')||mousep.presses()){
     startScreenLabel.visible=false
 }
 
-if(startGame)
+if(startGame){
+    
+}
 }
 
 function spawnPipePair(){
