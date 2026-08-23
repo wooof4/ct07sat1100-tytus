@@ -101,6 +101,7 @@ if (bird.collides(pipeGroup)||bird.collides(floor)){
 }
 if(kb.presses('space')||mousep.presses()){
     startGame=true
+    startScreenLabel
 }
 }
 
