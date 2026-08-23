@@ -41,6 +41,8 @@ floor.collider = "static";
 floor.img = base;
 
 pipeGroup = new Group();
+
+startScreenLabel
 }
 
 function draw(){
