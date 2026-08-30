@@ -58,7 +58,6 @@ if(kb.presses('space')||mouse.presses()){
 
 if(startGame){
 if (kb.presses('space')){
-    
 bird.vel.y = -3;
 bird.sleeping = false;
 }
