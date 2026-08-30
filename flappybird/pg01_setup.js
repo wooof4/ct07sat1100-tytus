@@ -54,7 +54,6 @@ if(kb.presses('space')||mouse.presses()){
     startGame=true
     startScreenLabel.visible=false
     bird.collider="dynamic"
-    bird.visible=true
 }
 
 if(startGame){
