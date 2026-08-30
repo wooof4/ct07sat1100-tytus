@@ -52,7 +52,8 @@ pipeGroup = new Group();
 
 startScreenLabel=new Sprite(width/2,height/2,50,50,'none');
 startScreenLabel.img=startScreenImg;
-scoreDigits=new Group
+scoreDigits=new Group();
+sc
 }
 
 function draw(){
