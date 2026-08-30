@@ -153,3 +153,6 @@ function drawScore(x,y,score,digitwidth,digitheight){
         digitSprite.img=numberImages[digit];
     }
 }
+function moveGroup(group,targetx,spacing){
+    
+}
