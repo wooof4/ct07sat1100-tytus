@@ -23,7 +23,7 @@ bird.height = 30;
 bird.img = flapMidImg;
 
 bird.collider = "static";
-bird.visibility=false;
+// bird.visibility=false;
 bird.mass = 2;
 bird.drag = 0.02;
 bird.bounciness = 0.5;
