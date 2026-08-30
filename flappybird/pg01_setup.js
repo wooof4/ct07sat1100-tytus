@@ -140,4 +140,6 @@ pipeGroup.add(topPipe);
 
 
 }
-function drawScore(x,y,score){}
+function drawScore(x,y,score,digitwidth,digitheight){
+    
+}
