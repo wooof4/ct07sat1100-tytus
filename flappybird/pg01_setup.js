@@ -156,5 +156,5 @@ function drawScore(x,y,score,digitwidth,digitheight){
 }
 function moveGroup(group,targetX,spacing){
 let totalwidth=(group.length-1)*spacing;
-let startX
+let startX=(targetX-to)
 }
