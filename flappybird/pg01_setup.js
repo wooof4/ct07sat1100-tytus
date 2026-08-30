@@ -6,6 +6,9 @@ let gameoverLabel;
 let startScreenLabel;
 let startScreenImg;
 let startGame=false;
+let score=0;
+let numberImages=[];
+let scoreDigits;
 function preload() {
 flapMidImg = loadImage('assets/yellowbird-midflap.png');
 flapUpImg = loadImage('assets/yellowbird-upflap.png');
