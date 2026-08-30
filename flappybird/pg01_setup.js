@@ -149,6 +149,6 @@ function drawScore(x,y,score,digitwidth,digitheight){
     for (let i=0;i<scoreStr.length;i++){
         let digit =int(scoreStr[i]);
         let xPos=starrtX+i*digitwidth;
-        let digit
+        let digitSprite=new s
     }
 }
