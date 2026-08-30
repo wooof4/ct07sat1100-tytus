@@ -151,7 +151,7 @@ function drawScore(x,y,score,digitwidth,digitheight){
         let xPos=startX+i*digitwidth;
         let digitSprite=new scoreDigits.Sprite(xPos,y,digitwidth,digitheight);
         digitSprite.img=numberImages[digit];
-        moveGroup
+        moveGroup(scoreDigits)
     }
 }
 function moveGroup(group,targetx,spacing){
