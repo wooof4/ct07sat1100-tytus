@@ -142,5 +142,6 @@ pipeGroup.add(topPipe);
 }
 function drawScore(x,y,score,digitwidth,digitheight){
     scoreDigits.removeAll();
-    let scoreStr=str(score)
+    let scoreStr=str(score);
+    let totalwidth=scare
 }
