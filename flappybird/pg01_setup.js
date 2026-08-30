@@ -116,7 +116,7 @@ if (bird.collides(pipeGroup)||bird.collides(floor)){
 
     noLoop();
 }
-drawScore(width)
+drawScore(width/2,20,)
 }
 
 
