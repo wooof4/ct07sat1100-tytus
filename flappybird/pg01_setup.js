@@ -159,6 +159,6 @@ function moveGroup(group,targetX,spacing){
 let totalwidth=(group.length-1)*spacing;
 let startX=(targetX-totalwidth/2);
 for(let i =0;i<group.length;i++){
-    group[i].x=startx+i*spacing;
+    group[i].x=startX+i*spacing;
 }
 }
