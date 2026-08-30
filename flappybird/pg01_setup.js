@@ -150,6 +150,6 @@ function drawScore(x,y,score,digitwidth,digitheight){
         let digit =int(scoreStr[i]);
         let xPos=starrtX+i*digitwidth;
         let digitSprite=new scoreDigits.Sprite(xPos,y,digitwidth,digitheight);
-        digitSprite.img
+        digitSprite.img=numberImages[digit];
     }
 }
