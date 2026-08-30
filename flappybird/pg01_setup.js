@@ -53,11 +53,12 @@ image(bg,0,0,width,height);
 if(kb.presses('space')||mouse.presses()){
     startGame=true
     startScreenLabel.visible=false
-    bird.collider="dynamic"
+
 }
 
 if(startGame){
 if (kb.presses('space')){
+    
 bird.vel.y = -3;
 bird.sleeping = false;
 }
