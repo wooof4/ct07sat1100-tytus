@@ -18,7 +18,9 @@ base = loadImage('assets/base.png');
 pipe = loadImage('assets/pipe-green.png');
 gameoverImg=loadImage('assets/gameover.png');
 startScreenImg=loadImage('assets/message.png')
-for (let i = 0; i<10;i++){}
+for (let i = 0; i<10;i++){
+    numberImages
+}
 }
 
 function setup(){
