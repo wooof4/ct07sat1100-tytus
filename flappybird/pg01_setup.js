@@ -154,6 +154,6 @@ function drawScore(x,y,score,digitwidth,digitheight){
         moveGroup(scoreDigits,camer,x,24)
     }
 }
-function moveGroup(group,targetx,spacing){
+function moveGroup(group,targetX,spacing){
 
 }
