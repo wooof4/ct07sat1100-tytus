@@ -26,7 +26,7 @@ for (let i = 0; i<10;i++){
 function setup(){
 new Canvas(400,600);
 
-bird = new Sprite();
+bird = new Sprite();    
 bird.x = width / 2;
 bird.y = 200;
 bird.width = 30;
