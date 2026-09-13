@@ -116,6 +116,7 @@ let birdLeftEdge = bird.x+bird.w/2;
 if (pipe.passed==false && pipeRightEdge<birdLeftEdge){
     pipe.passed=true
     score++;
+    pointSound.play()
 }
 }
 
