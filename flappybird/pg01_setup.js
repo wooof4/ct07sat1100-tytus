@@ -10,6 +10,7 @@ let score=0;
 let numberImages=[];
 let scoreDigits;
 let pointSound;
+let die
 function preload() {
 flapMidImg = loadImage('assets/yellowbird-midflap.png');
 flapUpImg = loadImage('assets/yellowbird-upflap.png');
