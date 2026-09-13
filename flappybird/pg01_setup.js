@@ -145,7 +145,7 @@ if (bird.collides(pipeGroup)||bird.collides(floor)){
         gameoverLabel.remove();
         startScreenLabel.visible=true;
         startScreenLabel.x=bird.x;
-        startScreenLabel.x=height/2-50;
+        startScreenLabel.y=height/2-50;
         loop();
     },3000);
 }
