@@ -108,7 +108,7 @@ for(let pipe of pipeGroup){
     }
 }
 for(let pipe of pipeGroup){
-    let pipeRightEdge 
+let pipeRightEdge =pipe.x +pipe.w/2
 }
 
 if (bird.collides(pipeGroup)||bird.collides(floor)){
