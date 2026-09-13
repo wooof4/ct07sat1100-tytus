@@ -22,7 +22,7 @@ startScreenImg=loadImage('assets/message.png');
 for (let i = 0; i<10;i++){
     numberImages[i]=loadImage('assets/'+ i +'.png')
 }
-pointSound=createAudio('assets/')
+pointSound=createAudio('assets/sfx_wing.mp3')
 }
 
 function setup(){
