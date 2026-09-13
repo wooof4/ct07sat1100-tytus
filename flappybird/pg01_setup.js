@@ -75,7 +75,7 @@ if(startGame){
 if (kb.presses('space')){
 bird.vel.y = -3;
 bird.sleeping = false;
-
+wingSound.play()
 }
 bird.collider='dynamic';
 bird.visible=true;
