@@ -108,7 +108,8 @@ for(let pipe of pipeGroup){
     }
 }
 for(let pipe of pipeGroup){
-let pipeRightEdge =pipe.x +pipe.w/2
+let pipeRightEdge =pipe.x +pipe.w/2;
+let birdR
 }
 
 if (bird.collides(pipeGroup)||bird.collides(floor)){
