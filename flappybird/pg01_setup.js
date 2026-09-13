@@ -26,7 +26,7 @@ for (let i = 0; i<10;i++){
 }
 pointSound=createAudio('assets/sfx_point.mp3')
 dieSound=createAudio('assets/sfx_die.mp3')
-wingSound=createAudio
+wingSound=createAudio('assets/sfx_wing.mp3')
 }
 
 function setup(){
