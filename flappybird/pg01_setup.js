@@ -11,7 +11,7 @@ let numberImages=[];
 let scoreDigits;
 let pointSound;
 let dieSound;
-let wing
+let wingSound;
 function preload() {
 flapMidImg = loadImage('assets/yellowbird-midflap.png');
 flapUpImg = loadImage('assets/yellowbird-upflap.png');
@@ -25,6 +25,7 @@ for (let i = 0; i<10;i++){
     numberImages[i]=loadImage('assets/'+ i +'.png')
 }
 pointSound=createAudio('assets/sfx_point.mp3')
+dieSound=createAudio
 }
 
 function setup(){
