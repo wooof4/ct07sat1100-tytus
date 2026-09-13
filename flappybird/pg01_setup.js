@@ -4,7 +4,7 @@ let pipeGroup, pipe, bottomPipe, topPipe;
 let gameoverImg;
 let gameoverLabel;
 let startScreenLabel;
-let startScreenImg;
+let startScreenImg;s
 let startGame=false;
 let score=0;
 let numberImages=[];
