@@ -132,7 +132,22 @@ if (bird.collides(pipeGroup)||bird.collides(floor)){
     gameoverLabel.x=camera.x;
     dieSound.play()
     noLoop();
-    setTimeout
+    setTimeout(()=>{
+        score=0;
+        startGame=false;
+        pipeGroup.removeAll();
+        bird.vel.x=0;
+        bird.vel.y=0;
+        bird.rotation=0;
+        bird.collider='static'
+        bird.y=200;
+
+        gameoverLabel.remove();
+        startScreenLabel.visible=true;
+        startScreenLabel.x=bird.x;
+        startScreenLabel.x=height/2-50;
+        loop();
+    },3000);
 }
 drawScore(width/2,20,score,24,36)
 }
