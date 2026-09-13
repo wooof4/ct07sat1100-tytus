@@ -2,7 +2,7 @@ let bird, floor;
 let flapMidImg, bg, base;
 let pipeGroup, pipe, bottomPipe, topPipe;
 let gameoverImg;
-let gameoverLabel;
+let gameoverLabel;s
 let startScreenLabel;
 let startScreenImg;
 let startGame=false;
