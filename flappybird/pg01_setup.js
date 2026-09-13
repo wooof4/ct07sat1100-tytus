@@ -75,6 +75,7 @@ if(startGame){
 if (kb.presses('space')){
 bird.vel.y = -3;
 bird.sleeping = false;
+
 }
 bird.collider='dynamic';
 bird.visible=true;
