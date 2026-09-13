@@ -128,7 +128,7 @@ if (bird.collides(pipeGroup)||bird.collides(floor)){
     gameoverLabel.img=gameoverImg;
     gameoverLabel.layer=100;
     gameoverLabel.x=camera.x;
-
+    dieSound.play()
     noLoop();
 }
 drawScore(width/2,20,score,24,36)
