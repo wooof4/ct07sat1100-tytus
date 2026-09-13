@@ -107,7 +107,9 @@ for(let pipe of pipeGroup){
         pipe.remove();
     }
 }
-for(let pipe of pipeGroup)
+for(let pipe of pipeGroup){
+    let
+}
 
 if (bird.collides(pipeGroup)||bird.collides(floor)){
     gameoverLabel=new Sprite(width/2,height/2,192,42);
