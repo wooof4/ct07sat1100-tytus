@@ -4,7 +4,7 @@ function preload(){
 }
 function setup(){
     createCanvas(600,400);
-    background(background);
+    background(backgrounds);
     i=new Sprite();
     i.x=300;
     i.y=200;
