@@ -7,8 +7,8 @@ function setup(){
     
     world.gravity.y=192.6
     i=new Sprite();
-    i.x=300;
-    i.y=200;
+    i.x=400;
+    i.y=300;
     i.width=100;
     i.height=100;
 }
