@@ -3,7 +3,7 @@ function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
 }
 function setup(){
-    createCanvas(600,400);
+    createCanvas(800,600);
     background(dojoBg);
 }
 function draw(){
