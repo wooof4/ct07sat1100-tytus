@@ -5,6 +5,7 @@ let peach;
 
 function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
+    peach=loadImage('assets/')
 }
 function setup(){
     createCanvas(800,600);
