@@ -1,4 +1,5 @@
 let dojoBg;
+let fruuitGroup;
 function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
 }
