@@ -7,8 +7,8 @@ function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
     peach={
         whole:loadImage('assets/peachwhole.png')
-    
     }
+    fruitTypes=
 }
 function setup(){
     createCanvas(800,600);
