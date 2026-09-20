@@ -13,5 +13,5 @@ function setup(){
     i.height=100;
 }
 function draw(){
-background(dojoBg);gra
+background(dojoBg);
 }
