@@ -151,8 +151,6 @@ if (bird.collides(pipeGroup)||bird.collides(floor)){
 }
 drawScore(width/2,20,score,24,36)
 }
-
-
 }
 
 function spawnPipePair(){
