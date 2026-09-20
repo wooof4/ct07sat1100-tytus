@@ -4,7 +4,7 @@ function preload(){
 }
 function setup(){
     createCanvas(800,600);
-    background(dojoBg);
+    
     world.gravity.y=192.6
     i=new Sprite();
     i.x=300;
@@ -13,5 +13,5 @@ function setup(){
     i.height=100;
 }
 function draw(){
-
+background(dojoBg);
 }
