@@ -3,7 +3,7 @@ function setup(){
     background('white');
 }
 function draw(){
-    i=new sprite();
+    i=new Sprite();
     i.x=300;
     i.y=200;
     i.width=100;
