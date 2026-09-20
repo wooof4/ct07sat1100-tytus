@@ -1,6 +1,6 @@
 let background;
 function preload(){
-    
+    background=loadimage()
 }
 function setup(){
     createCanvas(600,400);
