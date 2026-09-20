@@ -6,7 +6,7 @@ function setup(){
     i.y=200;
     i.width=100;
     i.height=100;
-}   
+}
 function draw(){
 
 }
