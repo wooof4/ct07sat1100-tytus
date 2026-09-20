@@ -3,5 +3,6 @@ function setup(){
     background('white')
 }
 function draw(){
+    i=new sprite
     
 }
