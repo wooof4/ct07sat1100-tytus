@@ -2,13 +2,13 @@ let dojoBg;
 let fruuitGroup;
 let fruitTypes=[];
 let peach;
-
+let wateermelon;
 function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
     peach={
         whole:loadImage('assets/peachwhole.png')
     }
-    fruitTypes=
+    fruitTypes=[peach,wateermelon]
 }
 function setup(){
     createCanvas(800,600);
