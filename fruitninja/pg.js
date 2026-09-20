@@ -5,6 +5,7 @@ function preload(){
 function setup(){
     createCanvas(800,600);
     background(dojoBg);
+    
 }
 function draw(){
 
