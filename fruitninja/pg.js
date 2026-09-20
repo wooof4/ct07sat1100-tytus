@@ -5,7 +5,7 @@ function preload(){
 function setup(){
     createCanvas(800,600);
     background(dojoBg);
-    AudioWorkletNode.
+    world.gravity.y=192.6
 }
 function draw(){
 
