@@ -9,8 +9,8 @@ function setup(){
     i=new Sprite();
     i.x=400;
     i.y=300;
-    i.width=100;
-    i.height=100;
+    i.width=50;
+    i.height=75;
 }
 function draw(){
 background(dojoBg);
