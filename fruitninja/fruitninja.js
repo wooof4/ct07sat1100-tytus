@@ -1,10 +1,10 @@
-let background;
+let backgrounds;
 function preload(){
     backgrounds=loadImage('assets/dojobackground.png')
 }
 function setup(){
     createCanvas(600,400);
-    background(backgrounds);
+    background();
     i=new Sprite();
     i.x=300;
     i.y=200;
