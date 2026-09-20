@@ -1,6 +1,6 @@
 function setup(){
     createCanvas(600,400);
-        background('white');
+    background('white');
     i=new Sprite();
     i.x=300;
     i.y=200;
