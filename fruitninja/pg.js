@@ -21,6 +21,9 @@ function setup(){
 }
 function draw(){
 background(dojoBg);
+if (frameCount%120===0){
+    spawnFruit();
+}
 }
 function spawnFruit(){
     let fruitData=random(fruitTypes);
