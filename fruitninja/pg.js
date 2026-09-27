@@ -15,21 +15,19 @@ function preload(){
 }
 function setup(){
     createCanvas(800,600);
-    world.gravity.y=-10
+    world.gravity.y=-1000
     fruitGroup=new Group();
 }
 function draw(){
 background(dojoBg);
 if (frameCount%1===0){
     spawnFruit();
-    spawnFruit();
-    spawnFruit();
 }
 if (mouse.pressing()){
     let trail=new Sprite(mouse.x,mouse.y,7);
-    trail.collider='static';
+    trail.collider='none';
     trail.color='black';
-    // trail.life=10;
+    trail.life=10;
 
     sliceFruit();
 }
