@@ -27,6 +27,7 @@ function draw(){
 background(dojoBg);
 if (frameCount%120===0){
     spawnFruit();
+    l
 }
 if (mouse.pressing()){
     let trail=new Sprite(mouse.x,mouse.y,7);
