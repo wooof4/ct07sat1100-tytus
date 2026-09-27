@@ -28,6 +28,8 @@ if (mouse.pressing()){
     trail.collider='none';
     trail.color='black';
     trail.life=10;
+
+    slice
 }
 }
 function spawnFruit(){
