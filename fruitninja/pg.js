@@ -8,6 +8,7 @@ function preload(){
     peach={
         whole:loadImage('assets/peachwhole.png'),
         half1:loadImage('assets/peachhalf.png'),
+        half1:loadImage('assets/peachhalf.png'),
     }
     watermelon={
         whole:loadImage('assets/watermelonwhole.png')
