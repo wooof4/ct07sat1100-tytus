@@ -48,5 +48,9 @@ function sliceFruit(){
             continue;
         }
     }
-    let distance =dist(mouse.x,mouse.y,fruit.x,fruit.y)
+    let distance =dist(mouse.x,mouse.y,fruit.x,fruit.y);
+    if (distance<((fruit.d/2)+5)){
+        fruit.sliced=true;
+        fruit.remove();
+    }
 }
