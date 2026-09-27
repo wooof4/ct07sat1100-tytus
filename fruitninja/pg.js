@@ -29,7 +29,7 @@ if (mouse.pressing()){
     trail.color='black';
     trail.life=10;
 
-    slice
+    sliceFruit();
 }
 }
 function spawnFruit(){
