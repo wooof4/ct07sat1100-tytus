@@ -9,13 +9,14 @@ function preload(){
         whole:loadImage('assets/peachwhole.png')
     }
     watermelon={
-        
+        whole:loadImage('assets/watermelonwhole.png')
     }
     fruitTypes=[peach,watermelon]
 }
 function setup(){
     createCanvas(800,600);
     world.gravity.y=10
+    fruitGroup=new Group();
 }
 function draw(){
 background(dojoBg);
