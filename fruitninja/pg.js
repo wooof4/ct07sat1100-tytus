@@ -26,7 +26,8 @@ if (frameCount%120===0){
 if (Mouse.pressing()){
     let trail=new Sprite(mouse.x,mouse.y,7);
     trail.collider='none';
-    trail
+    trail.color='red'
+    
 }
 }
 function spawnFruit(){
