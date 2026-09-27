@@ -42,3 +42,6 @@ function spawnFruit(){
     fruit.friction=0;
     fruitGroup.add(fruit);
 }
+function sliceFruit(){
+    
+}
