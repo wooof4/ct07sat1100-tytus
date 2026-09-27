@@ -23,8 +23,8 @@ background(dojoBg);
 if (frameCount%120===0){
     spawnFruit();
 }
-if (MouseEvent.pressing()){
-    let trail=new Sprite(mouse)
+if (Mouse.pressing()){
+    let trail=new Sprite(mouse.x,mouse.y)
 }
 }
 function spawnFruit(){
