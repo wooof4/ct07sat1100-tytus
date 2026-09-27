@@ -12,7 +12,6 @@ function preload(){
 }
 function setup(){
     createCanvas(800,600);
-    
     world.gravity.y=10
     i=new Sprite();
     i.x=400;
