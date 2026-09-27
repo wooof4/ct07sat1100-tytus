@@ -49,7 +49,7 @@ function sliceFruit(){
         }
     
     let d=dist(mouse.x,mouse.y,fruit.x,fruit.y);
-    if (d<((fruit.d/2)+5)){
+    if (d<((fruit.d/2)+3)){
         fruit.sliced=true;
         fruit.remove();
         break;
