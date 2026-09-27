@@ -48,4 +48,5 @@ function sliceFruit(){
             continue;
         }
     }
+    let distance =dist[mouse.x]
 }
