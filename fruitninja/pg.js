@@ -61,6 +61,7 @@ function sliceFruit(){
         const fy =fruit.y;
         fruit.remove();
         break;
+        
     }
 }
 }
