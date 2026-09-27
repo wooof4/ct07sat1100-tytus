@@ -19,16 +19,15 @@ function preload(){
     fruitTypes=[peach,watermelon]
 }
 function setup(){
-    createCanvas(800,600);fruitHalves=new Group();
+    createCanvas(800,600);
     world.gravity.y=10
     fruitGroup=new Group();
+    fruitHalves=new Group();
 }
 function draw(){
 background(dojoBg);
 if (frameCount%120===0){
     spawnFruit();
-
-    
 }
 if (mouse.pressing()){
     let trail=new Sprite(mouse.x,mouse.y,7);
