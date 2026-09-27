@@ -23,5 +23,5 @@ function draw(){
 background(dojoBg);
 }
 function spawnFruit(){
-    let 
+    let fruitData=random 
 }
