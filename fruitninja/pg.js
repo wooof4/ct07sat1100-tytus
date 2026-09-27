@@ -25,6 +25,7 @@ background(dojoBg);
 function spawnFruit(){
     let fruitData=random(fruitTypes);
     let randomX=random(300,500);
-    let fruit = new fruuitGroup.Sprite (randomX,height+20,40)
-    fruit.image=fru
+    let fruit = new fruuitGroup.Sprite (randomX,height+20,40);
+    fruit.image=fruitData.whole;
+    fruit.vel.y=
 }
