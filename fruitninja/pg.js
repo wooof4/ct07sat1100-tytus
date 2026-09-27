@@ -7,7 +7,7 @@ function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
     peach={
         whole:loadImage('assets/peachwhole.png'),
-        half1:loadImage('assets/peach')
+        half1:loadImage('assets/peachhalf.png'),
     }
     watermelon={
         whole:loadImage('assets/watermelonwhole.png')
