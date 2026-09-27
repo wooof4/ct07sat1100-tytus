@@ -27,7 +27,7 @@ if (frameCount%1===0){
 }
 if (mouse.pressing()){
     let trail=new Sprite(mouse.x,mouse.y,7);
-    trail.collider='dynamic';
+    trail.collider='static';
     trail.color='black';
     // trail.life=10;
 
