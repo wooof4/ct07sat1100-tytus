@@ -24,7 +24,7 @@ if (frameCount%120===0){
     spawnFruit();
 }
 if (MouseEvent.pressing()){
-    
+    let trail
 }
 }
 function spawnFruit(){
