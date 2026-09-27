@@ -15,12 +15,12 @@ function preload(){
 }
 function setup(){
     createCanvas(800,600);
-    world.gravity.y=-1000
+    world.gravity.y=10
     fruitGroup=new Group();
 }
 function draw(){
 background(dojoBg);
-if (frameCount%1===0){
+if (frameCount%120===0){
     spawnFruit();
 }
 if (mouse.pressing()){
