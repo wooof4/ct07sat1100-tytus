@@ -1,5 +1,5 @@
 let dojoBg;
-let fruuitGroup;
+let fruitGroup;
 let fruitTypes=[];
 let peach;
 let watermelon;
