@@ -20,7 +20,7 @@ function setup(){
 }
 function draw(){
 background(dojoBg);
-if (frameCount%30===0){
+if (frameCount%1===0){
     spawnFruit();
 }
 if (mouse.pressing()){
