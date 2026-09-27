@@ -48,5 +48,5 @@ function sliceFruit(){
             continue;
         }
     }
-    let distance =dist[mouse.x,mouse.y,]
+    let distance =dist(mouse.x,mouse.y,fruit.x,fruit.y)
 }
