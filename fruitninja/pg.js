@@ -22,3 +22,6 @@ function setup(){
 function draw(){
 background(dojoBg);
 }
+function spawnFruit(){
+    
+}
