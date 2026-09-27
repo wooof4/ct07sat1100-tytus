@@ -23,6 +23,9 @@ background(dojoBg);
 if (frameCount%120===0){
     spawnFruit();
 }
+if (MouseEvent.pressing()){
+    
+}
 }
 function spawnFruit(){
     let fruitData= random(fruitTypes);
