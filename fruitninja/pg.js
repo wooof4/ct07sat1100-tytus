@@ -73,7 +73,6 @@ function splitFruit(x,y,fruitData){
     left.rotationSpeed=-5;
     left.life=30;
 
-    
     let right=new Sprite(x+10,y,40,40);
     right.img=fruitData.half2;
     right.vel.x=3;
