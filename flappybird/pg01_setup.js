@@ -30,7 +30,7 @@ wingSound=createAudio('assets/sfx_wing.mp3')
 }
 
 function setup(){
-new Canvas(400,600);
+new Canvas(400,500);
 
 bird = new Sprite();        
 bird.x = width / 2;
