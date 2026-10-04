@@ -32,11 +32,12 @@ background(dojoBg);
 if (gamestate==='start'){
     fill(0,100);
     rect(0,0,width,height);
-    fill(255)
-    textAlign(CENTER,CENTER)
+    fill(255);
+    textAlign(CENTER,CENTER);
     textSize(48);
     text('Fruit Ninja',width/2,height/2-40);
-    textSize(2)
+    textSize(24);
+    text
 }
 if (frameCount%120===0){
     spawnFruit();
