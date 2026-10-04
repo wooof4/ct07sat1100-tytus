@@ -31,7 +31,7 @@ function draw(){
 background(dojoBg);
 if(mouse.presses()&&(gamestate==='start')){
     gamestate='play';
-    
+    s
 }
 if (gamestate==='start'){
     fill(0,100);
