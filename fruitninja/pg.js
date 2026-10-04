@@ -47,7 +47,9 @@ if (mouse.pressing()){
 
 }
 function trackMissedFruit(){
-    
+    for (let fruit of fruitGroup){
+        
+    }
 }
 function spawnFruit(){
     let fruitData= random(fruitTypes);
