@@ -6,6 +6,7 @@ let watermelon;
 let fruitHalves;
 let score=0;
 let missed=0;
+let gamestart=True;
 function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
     peach={
