@@ -48,7 +48,10 @@ if (mouse.pressing()){
 }
 function trackMissedFruit(){
     for (let fruit of fruitGroup){
-        if (fruit.y>height+50)
+        if (fruit.y>height+50){
+            fruit.remove()
+            
+        }
     }
 }
 function spawnFruit(){
