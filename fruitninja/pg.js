@@ -29,7 +29,10 @@ function setup(){
 }
 function draw(){
 background(dojoBg);
-if(mouse.presses()&&(gamestate==='start'))
+if(mouse.presses()&&(gamestate==='start')){
+    gamestate='play';
+    
+}
 if (gamestate==='start'){
     fill(0,100);
     rect(0,0,width,height);
