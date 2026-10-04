@@ -29,6 +29,7 @@ function setup(){
 }
 function draw(){
 background(dojoBg);
+if(k)
 if (gamestate==='start'){
     fill(0,100);
     rect(0,0,width,height);
