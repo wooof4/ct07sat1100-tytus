@@ -33,7 +33,8 @@ if(mouse.presses()&&(gamestate==='start')){
     gamestate='play';
     score=0;
     missed=0;
-    fruitGroup.remove
+    fruitGroup.removeALL();
+    
 }
 if (gamestate==='start'){
     fill(0,100);
