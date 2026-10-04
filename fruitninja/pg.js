@@ -68,6 +68,7 @@ function sliceFruit(){
         const fy =fruit.y;
         fruit.remove();
         splitFruit(fx,fy,fruit.type);
+        score+=1
     }
 }
 }
