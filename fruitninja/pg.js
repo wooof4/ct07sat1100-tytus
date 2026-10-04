@@ -29,7 +29,7 @@ function setup(){
 }
 function draw(){
 background(dojoBg);
-if(mouse.presses()&&())
+if(mouse.presses()&&(gamestate==='start'))
 if (gamestate==='start'){
     fill(0,100);
     rect(0,0,width,height);
