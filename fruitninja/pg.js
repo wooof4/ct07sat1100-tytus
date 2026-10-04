@@ -29,7 +29,9 @@ function setup(){
 }
 function draw(){
 background(dojoBg);
-if (gamestate==='start')
+if (gamestate==='start'){
+    fill(0)
+}
 if (frameCount%120===0){
     spawnFruit();
 }
