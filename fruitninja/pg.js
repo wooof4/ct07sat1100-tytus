@@ -45,7 +45,7 @@ if (mouse.pressing()){
     textAlign(LEFT,TOP)
     text('Score:'+score,10,10)
     trackMissedFruit()
-    
+    text('Missed:'+)
 }
 function trackMissedFruit(){
     for (let fruit of fruitGroup){
