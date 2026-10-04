@@ -20,7 +20,7 @@ function preload(){
 }
 function setup(){
     createCanvas(800,600);
-    world.gravity.y=10
+    world.gravity.y=10;
     fruitGroup=new Group();
     fruitHalves=new Group();
 }
