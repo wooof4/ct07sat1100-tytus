@@ -41,7 +41,8 @@ if (mouse.pressing()){
     stroke(158,70,70)
     fill(255)
     textSize(24)
-    textAlign()
+    textAlign(LEFT,TOP)
+    
 }
 function spawnFruit(){
     let fruitData= random(fruitTypes);
