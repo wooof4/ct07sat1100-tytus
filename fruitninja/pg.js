@@ -34,7 +34,8 @@ if (gamestate==='start'){
     rect(0,0,width,height);
     fill(255)
     textAlign(CENTER,CENTER)
-    Tex
+    textSize(48);
+    
 }
 if (frameCount%120===0){
     spawnFruit();
