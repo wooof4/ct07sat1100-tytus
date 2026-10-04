@@ -37,7 +37,7 @@ if (gamestate==='start'){
     textSize(48);
     text('Fruit Ninja',width/2,height/2-40);
     textSize(24);
-    text('Press ')
+    text('Press SPACE')
 }
 if (frameCount%120===0){
     spawnFruit();
