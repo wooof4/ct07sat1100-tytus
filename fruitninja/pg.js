@@ -39,12 +39,12 @@ if (mouse.pressing()){
 
     sliceFruit();
 }
-    stroke(158,70,70)
-    fill(255)
-    textSize(24)
-    textAlign(LEFT,TOP)
-    text('Score:'+score,10,10)
-    trackMissedFruit()
+    stroke(158,70,70);
+    fill(255);
+    textSize(24);
+    textAlign(LEFT,TOP);
+    text('Score:'+score,10,10);
+    trackMissedFruit();
     text('Missed:'+missed,200,10);
 }
 function trackMissedFruit(){
