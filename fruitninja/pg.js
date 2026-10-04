@@ -38,6 +38,7 @@ if (mouse.pressing()){
 
     sliceFruit();
 }
+    stroke
 }
 function spawnFruit(){
     let fruitData= random(fruitTypes);
