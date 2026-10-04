@@ -42,7 +42,7 @@ if (mouse.pressing()){
     fill(255)
     textSize(24)
     textAlign(LEFT,TOP)
-    
+    text('Score:'+score)
 }
 function spawnFruit(){
     let fruitData= random(fruitTypes);
