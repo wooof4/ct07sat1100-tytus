@@ -31,7 +31,8 @@ function draw(){
 background(dojoBg);
 if (gamestate==='start'){
     fill(0,100);
-    rect(0,0)
+    rect(0,0,width,height);
+    fill(255)
 }
 if (frameCount%120===0){
     spawnFruit();
