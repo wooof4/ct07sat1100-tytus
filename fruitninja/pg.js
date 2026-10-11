@@ -68,6 +68,7 @@ if (mouse.pressing()){
     text('Score:'+score,10,10);
     trackMissedFruit();
     text('Missed:'+missed,200,10);
+    
 
 }
 function trackMissedFruit(){
