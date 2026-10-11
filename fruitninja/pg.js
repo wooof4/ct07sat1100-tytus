@@ -77,7 +77,7 @@ if (mouse.pressing()){
     }
     if(gamestate='gameover'){
        fill(0,180);
-
+        rect
     }
 }
 function trackMissedFruit(){
