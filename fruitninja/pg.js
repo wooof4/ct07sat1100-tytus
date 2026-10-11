@@ -71,7 +71,7 @@ if (mouse.pressing()){
     text('Missed:'+missed,200,10);
     timer=millis()-startTime;
     text('Time Left:'+floor(gameduration-timer/1000),400,10);
-    if(gamestate='gameover'){
+    if(gamestate==='gameover'){
        fill(0,180);
         rect(0,0,width,height)
         textAlign(CENTER,CENTER);
