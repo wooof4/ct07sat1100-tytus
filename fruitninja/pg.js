@@ -80,7 +80,7 @@ function trackMissedFruit(){
             fruit.remove()
             missed+=1
         }
-    }
+    }  
 }
 function spawnFruit(){
     let fruitData= random(fruitTypes);
