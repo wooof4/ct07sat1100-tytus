@@ -78,6 +78,7 @@ if (mouse.pressing()){
     if(gamestate='gameover'){
        fill(0,180);
         rect(0,0,width,height)
+        textAlign(CENTER,CENTER)
     }
 }
 function trackMissedFruit(){
