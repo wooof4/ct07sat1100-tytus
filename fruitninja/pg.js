@@ -39,7 +39,7 @@ if(mouse.presses()&&(gamestate==='start')){
     time=60000;
     fruitGroup.removeAll();
     fruitHalves.removeAll();
-    startTime=mililis()
+    startTime=millis()
 }
 if (gamestate==='start'){
     fill(0,100);
