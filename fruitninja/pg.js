@@ -70,12 +70,12 @@ if (mouse.pressing()){
     trackMissedFruit();
     text('Missed:'+missed,200,10);
     timer=millis()-startTime;
-    text('Time Left:'+floor(gameduration-timer/1000),400,10)
+    text('Time Left:'+floor(gameduration-timer/1000),400,10);
 }
 function trackMissedFruit(){
     for (let fruit of fruitGroup){
         if (fruit.y>height+50){
-            fruit.remove()
+            fruit.remove();
             missed+=1
         }
     }   
