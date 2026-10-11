@@ -6,7 +6,7 @@ let watermelon;
 let fruitHalves;
 let score=0;
 let missed=0;
-let time=60;
+let time=60000;
 let gamestate='start';
 function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
@@ -67,7 +67,7 @@ if (mouse.pressing()){
     text('Score:'+score,10,10);
     trackMissedFruit();
     text('Missed:'+missed,200,10);
-    
+
 }
 function trackMissedFruit(){
     for (let fruit of fruitGroup){
