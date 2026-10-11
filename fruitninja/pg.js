@@ -81,6 +81,7 @@ if (mouse.pressing()){
         textAlign(CENTER,CENTER);
         text('Game Over',width/2,height/2-60)
         textSize(24)
+        fill(255);
         
     }
 }
