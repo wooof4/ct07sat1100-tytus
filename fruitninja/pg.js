@@ -75,7 +75,9 @@ if (mouse.pressing()){
         gamestate='gameover';
         return; 
     }
-    if(gamestate='gameover')
+    if(gamestate='gameover'){
+       fill 
+    }
 }
 function trackMissedFruit(){
     for (let fruit of fruitGroup){
