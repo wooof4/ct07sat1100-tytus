@@ -39,6 +39,7 @@ if(mouse.presses()&&(gamestate==='start')){
     time=60000;
     fruitGroup.removeAll();
     fruitHalves.removeAll();
+    games
 }
 if (gamestate==='start'){
     fill(0,100);
