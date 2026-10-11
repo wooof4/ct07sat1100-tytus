@@ -49,6 +49,7 @@ if (gamestate==='start'){
     text('CLICK to Start',width/2,height/2+20);
     return;
 }
+time=time-1
 if (frameCount%120===0){
     spawnFruit();
 }
