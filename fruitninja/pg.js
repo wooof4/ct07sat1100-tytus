@@ -8,7 +8,7 @@ let score=0;
 let missed=0;
 let timer=0;
 let startTime=0;
-let gameduration=60;
+let gameduration=10;
 let gamestate='start';
 function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
