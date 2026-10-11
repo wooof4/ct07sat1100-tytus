@@ -79,7 +79,7 @@ if (mouse.pressing()){
         textSize(24)
         fill(255);
         text('Score:'+score,width/2,height/2);
-        text('Missed Fruits:'+missed,width/2,height/2+)
+        text('Missed Fruits:'+missed,width/2,height/2+40)
         text('Click To Restart',width/2,height/2+80)
         return;
     }
