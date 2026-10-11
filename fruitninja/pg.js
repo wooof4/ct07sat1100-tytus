@@ -71,7 +71,9 @@ if (mouse.pressing()){
     text('Missed:'+missed,200,10);
     timer=millis()-startTime;
     text('Time Left:'+floor(gameduration-timer/1000),400,10);
-    
+    if(gameduration<=60){
+        
+    }
 }
 function trackMissedFruit(){
     for (let fruit of fruitGroup){
