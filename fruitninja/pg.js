@@ -84,7 +84,7 @@ if (mouse.pressing()){
         fill(255);
         text('Score:'+score,width/2,height/2);
         text('Missed Fruits:'+missed,width/2,height/2)
-        text('Click To Retart',width/2,height/2+80)
+        text('Click To Restart',width/2,height/2+80)
         return;
     }
 }
