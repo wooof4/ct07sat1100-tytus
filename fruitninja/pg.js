@@ -79,7 +79,7 @@ if (mouse.pressing()){
        fill(0,180);
         rect(0,0,width,height)
         textAlign(CENTER,CENTER);
-        textSize('Game OV')
+        textSize('Game Over',wo)
     }
 }
 function trackMissedFruit(){
