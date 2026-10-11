@@ -82,7 +82,7 @@ if (mouse.pressing()){
         text('Game Over',width/2,height/2-60)
         textSize(24)
         fill(255);
-        
+        text('Score:')
     }
 }
 function trackMissedFruit(){
