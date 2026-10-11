@@ -8,7 +8,7 @@ let score=0;
 let missed=0;
 let timer=0;
 let startTime=0;
-let gameduration=0;
+let gameduration=60;
 let gamestate='start';
 function preload(){
     dojoBg=loadImage('assets/dojobackground.png')
@@ -36,7 +36,6 @@ if(mouse.presses()&&(gamestate==='start')){
     gamestate='play';
     score=0;
     missed=0;
-    time=60000;
     fruitGroup.removeAll();
     fruitHalves.removeAll();
     startTime=millis()
