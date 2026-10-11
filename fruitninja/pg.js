@@ -83,7 +83,7 @@ if (mouse.pressing()){
         textSize(24)
         fill(255);
         text('Score:'+score,width/2,height/2);
-        text('Missed')
+        text('Missed Fruits:'+missed)
     }
 }
 function trackMissedFruit(){
